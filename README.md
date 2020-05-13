@@ -11,8 +11,8 @@ To rebuild the docker image:
 ```
 mkdir <my_docker_project>
 cd <my_docker_project>
-git clone https://github.com/jacks9/riverwalk-notebook.git
-cd riverwalk-notebook
+git clone https://github.com/jacks9/riverwalk.git
+cd riverwalk
 docker build -t <your_hub_id>/riverwalk-notebook:<your_tag> .
 ```
 
@@ -51,5 +51,5 @@ https://hub.docker.com
 
 To build and run on MyBinder, just click the button below:
 ---
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JackS9/riverwalk-notebook.git/master?filepath=notebooks%2FRiverWalk.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JackS9/riverwalk.git/master?filepath=notebooks%2FRiverWalk.ipynb)
 
