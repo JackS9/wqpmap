@@ -1,4 +1,5 @@
 geopandas
+descartes
 folium
 geoalchemy2
 pymysql
