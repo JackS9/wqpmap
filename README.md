@@ -1,6 +1,6 @@
-# RiverWalk
+# WQPMap
 
-This is the Dockerfile and requirements.txt file used to create jacks9/riverwalk-notebook on DockerHub
+This is the Dockerfile and requirements.txt file used to create jacks9/wqpmap-notebook on DockerHub
 
 * The notebooks directory contains a sample iPython notebook that will run in this Jupyter environment.  
 * The notebooks/data directory contains data files used by the notebook.
@@ -11,16 +11,16 @@ To rebuild the docker image:
 ```
 mkdir <my_docker_project>
 cd <my_docker_project>
-git clone https://github.com/jacks9/riverwalk.git
-cd riverwalk
-docker build -t <your_hub_id>/riverwalk-notebook:<your_tag> .
+git clone https://github.com/jacks9/wqpmap.git
+cd wqpmap
+docker build -t <your_hub_id>/wqpmap-notebook:<your_tag> .
 ```
 
 To run/test it:
 ---
 
 ```
-docker run -p 80:8888 -v $PWD:/home/jovyan/work <your_hub_id>/riverwalk-notebook:<your_tag>
+docker run -p 80:8888 -v $PWD:/home/jovyan/work <your_hub_id>/wqpmap-notebook:<your_tag>
 ```
 
 Then enter the URL displayed (including token) in your browser (using 'localhost' as the IP address).
@@ -32,7 +32,7 @@ Open and run the notebook.
 To just run the docker image as-is  on DockerHub
 ---
 * Skip the docker build step 
-* Use 'jacks9/riverwalk-notebook:latest' as the image name in the docker run step. 
+* Use 'jacks9/wqpmap-notebook:latest' as the image name in the docker run step. 
 
 or just run:
 ```
