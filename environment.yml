@@ -1,0 +1,13 @@
+name: wqpmap-environment
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - folium
+  - geoalchemy2
+  - pymysql
+  - mysqlclient
+  - psycopg2
+  - pip:
+    - geoedfframework
+    - descartes

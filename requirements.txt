@@ -1,4 +1,3 @@
-geoedfframework
 pandas
 requests
 sqlalchemy
