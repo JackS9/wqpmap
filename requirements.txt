@@ -1,3 +1,7 @@
+geoedfframework
+pandas
+requests
+sqlalchemy
 geopandas
 descartes
 folium
